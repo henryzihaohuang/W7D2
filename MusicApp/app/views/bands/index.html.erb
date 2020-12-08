@@ -1,0 +1,19 @@
+<section class = "band-index-holder"
+    <nav>
+        <h1> BANDS </h1>
+        <a href="new_band_url %>">
+        Add a band that slaps
+            <i class="fa fa-plus" aria-hidden="true"></i>
+        </a>
+    </nav>
+    <section class"band-index">
+        <% @bands.each do |band| %>
+            <div class="band-index-item">
+                <div>
+                    <img src = "https://superawesomevectors.com/wp-content/uploads/2015/01/flat-diamond-icon.jpg" > 
+                    <br/><a href= "<#%=edit_band_url"%>">Edit band info </a>
+                </div>
+            </div>
+        <% end %>
+    </section>
+</section>
